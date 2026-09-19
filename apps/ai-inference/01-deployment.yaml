@@ -60,7 +60,7 @@ spec:
       containers:
         - name: inference
           # GitHub Actions(Docker Image CI)가 main 브랜치 push 시 자동 빌드/push함
-          image: ikdamservice/k8s-project:latest
+          image: ikdamservice/k8s-project:3b6b2f3
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
